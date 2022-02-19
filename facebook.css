@@ -1,0 +1,158 @@
+* { font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+header {
+    color: white;
+    justify-content: space-around;
+    background-color: #3A5998;
+    display: flex;
+    height: 75px;
+}
+.titre {
+    font-size: 50px;
+}
+.hdroite {
+    justify-content: right;
+    display: flex;
+    font-size: 12px;
+}
+.mail {
+    margin-right: 10px;
+}
+.pw {
+    margin-right: 10px;
+}
+#gris {
+    color: #88A0CA;
+}
+.blue {
+    color: white;
+    background-color: #4267B2;
+    border-color: #4267B2;
+    border-radius: 3px;
+}
+
+.im1, .im2, .im3 {
+    display: flex;
+    margin-top: 50px;
+}
+.im1, .con {
+    margin-top: 50px;
+}
+.bod {
+    display: flex;
+    margin-top: 20px;
+}
+.gauche {
+    margin-top: 50px;
+    text-align: center;
+    width: 60%;
+}
+.droite {
+    margin-top: 20px;
+    background-color:;
+    width: 40%;
+}
+.mobile, .npass {
+    width: 412px;
+    margin-top: 30px;
+    height: 30px;
+}
+.fn, .ln {
+    width: 200px;
+    height: 30px;
+}
+.big {
+    font-size: 50px;
+}
+.grise {
+    border-radius: 15px; 
+    background-color: #606770;
+    border-color: #606770;
+}
+.droite, .big, .it, .d1, .bt, .bout, .gende, .para, .green {
+    margin-top: 28px;
+}
+.bout, .gende{
+    text-align: center;
+    display
+}
+.case {
+    height: 25px;
+}
+.case1 {
+    height: 30px;
+}
+.green {
+    height: 40px;
+    width: 200px;
+    background-color: #5D9749;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.image {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#bleu {
+    color: #3A5998;
+}
+.bleu {
+    margin-top: 15px;
+}
+.b {
+    margin-top: 20px;
+    width: 410px;
+}
+.it {
+    font-size: 20px;
+}
+.pa {
+    margin-top: 20px;
+}
+@media screen and (max-width: 1056px)
+{
+    header{
+        width: 100%;
+        height: 180px;
+    }
+    .hdroite {
+        display: flex;
+        flex-direction: column;
+    }
+    .bod {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .titre {
+        margin-top: 80px;
+        font-size: 30px;
+    }
+    .mobile, .npass {
+        width: 200px;
+    }
+    .con { 
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .big {
+        font-size: 30px;
+    }
+    .pa {
+        font-size: 12px;
+    }
+    .gende {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .bout {
+        margin-bottom: 20px;
+        display: flex;
+    }
+    .b {
+        width: 300px;
+    }
+}
